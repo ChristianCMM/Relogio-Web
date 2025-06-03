@@ -1,0 +1,15 @@
+{
+  "name": "previsao-do-tempo",
+  "version": "1.0.0",
+  "description": "Aplicação WEB de previsão do tempo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Mattos Moreira",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}

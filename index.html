@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="/css/resetCSS.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+    <body>
+        <div id="conteudo" class="conteudo">
+            <span class="display_horario">
+                <p class="texto" id="texto_horario">Horário:</p>
+                <p id="horario" class="horario">00:00</p>
+            </span>
+            <main id="display_central">
+                <p id="texto" class="texto">Carregando...</p>
+                <p id="temperatura" class="temperatura"></p>
+                <p id="umidade" class="umidade">Umidade do ar em: </p>
+            </main>
+            <script src="/js/verificarTempo.js"></script>
+        </div>
+    </body>
+</html>

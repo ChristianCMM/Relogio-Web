@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: #2A7B9B;
+    background: linear-gradient(
+        0deg,rgba(42, 123, 155, 0.75) 0%, 
+        rgba(87, 199, 188, 0.92) 50%
+    );
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #2a5f9b;
+    height: 20rem;
+    width: 20rem;
+    border: 3px solid black;
+    border-radius: 7px;
+}
+
+.display_horario {
+    display: flex;
+    flex-direction: row;
+}
+
+#umidade,
+#texto {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: block;
+    width: 100%;
+}
+
+#temperatura { 
+    margin: auto;
+    font-size: 4rem;
+    font-family: sans-serif;
+}
+
+#display_central {
+    background-position: center;
+}
+
+.horario,
+.temperatura,
+.texto,
+.umidade {
+    color: white;
+    text-align: initial;
+    text-shadow: 
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#texto_horario {
+    display: flex;
+    align-items: end;
+}
+
+.horario {
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+}
