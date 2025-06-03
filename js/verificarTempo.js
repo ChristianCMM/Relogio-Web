@@ -12,11 +12,11 @@ fetch(url)
       
       //muda a imagem do background com base na temperatura atual
       if (temp>=25) {
-        document.getElementById('display_central').style.backgroundImage = "url('../img/sol_escaldante.png')"// calor
+        document.getElementById('display_central').style.backgroundImage = "url('img/sol_escaldante.png')"// calor
       } else if (temp<=0) {
-        document.getElementById('display_central').style.backgroundImage = "url('../img/ceu_com_neve.png')"// frio
+        document.getElementById('display_central').style.backgroundImage = "url('img/ceu_com_neve.png')"// frio
       } else {
-        document.getElementById('display_central').style.backgroundImage = "url('../img/ceu_com_nuvens.png')"// amena
+        document.getElementById('display_central').style.backgroundImage = "url('img/ceu_com_nuvens.png')"// amena
       } 
 
       //coleta horario
