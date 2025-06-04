@@ -11,14 +11,20 @@
         <div id="conteudo" class="conteudo">
             <span class="display_horario">
                 <p class="texto" id="texto_horario">Horário:</p>
-                <p id="horario" class="horario">00:00</p>
+                <p id="horario">
+                    <div class="horario">
+                        <p id="horas">00</p>:
+                        <p id="minutos">00</p>
+                    </div>
+                </p>
             </span>
             <main id="display_central">
                 <p id="texto" class="texto">Carregando...</p>
                 <p id="temperatura" class="temperatura"></p>
                 <p id="umidade" class="umidade">Umidade do ar em: </p>
             </main>
-            <script src="js/verificarTempo.js"></script>
         </div>
+    <script src="/js/verificarTempo.js"></script>
+    <script src="/js/sincronizaHorario.js"></script>
     </body>
 </html>

@@ -68,6 +68,8 @@ main {
 }
 
 .horario {
+    display: flex;
+    flex-direction: row;
     margin: auto;
     text-align: center;
     font-size: 2rem;

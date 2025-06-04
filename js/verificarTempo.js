@@ -19,10 +19,6 @@ fetch(url)
         document.getElementById('display_central').style.backgroundImage = "url('img/ceu_com_nuvens.png')"// amena
       } 
 
-      //coleta horario
-      const horarioAtual = (data.current_weather.time).split('T')[1]
-      document.getElementById('horario').textContent = horarioAtual
-
       // coleta umidade
       const time = (data.current_weather.time).split(':')[0]
       const timeIndex = data.hourly.time.indexOf(`${time}:00`)
